@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width", initial-scale=1.0>
+
+<style>
+
+.content {
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+#flexbox1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-basis: 14%;
+    height: 200px;
+    text-align: center;
+    margin: 3%;
+    border-radius: 5%;
+    
+}
+
+.box img {
+    border-radius: 5% 5% 0 0;
+    width: 100%;
+    height: 160px;
+    background-color: lightblue;
+}
+
+.box p {
+    margin-top: 6px;
+}
+
+@media (max-width: 768px){
+    .box {
+        flex-basis: 27.33%;
+    }
+}
+
+@media (max-width: 480px){
+    .box {
+        flex-basis: 90%;
+        margin: 5%;
+    }
+}
+ 
+
+</style>
+
+</head>
+<body>
+
+<div class="content">
+    
+    <h1>Gallery Heading</h1>
+
+
+    <div id="flexbox1">
+        <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+         <div class="box">
+            <img src="image.png">
+            <p>Image Title</p>
+        </div>
+    </div>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      
+</div>
+
+</body>
+</html>
